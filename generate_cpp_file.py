@@ -12,6 +12,6 @@ open(file_name, "x")
     
     
 with open(file_name, "w") as file:
-    x = "#include <iostream>\n\nint main()\n{\n\n    return 0;\n{\n"
+    x = "#include <iostream>\n\nint main()\n{\n\n    return 0;\n}\n"
     file.write(x)
     
